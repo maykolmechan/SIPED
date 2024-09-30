@@ -8,7 +8,7 @@ require_once 'Conexion.php';
 
 class Persona {
     private $db;
-    //QUIAMOS VARIABLES INNECESARIAS
+    //QUITAMOS VARIABLES INNECESARIAS SEGUNDA PARTE
 
     public function __construct() {
         $this->db = (new Conexion())->conectar();
