@@ -8,6 +8,7 @@ require_once 'Conexion.php';
 
 class Persona {
     private $db;
+    //no usamos mas vaiables.
 
     public function __construct() {
         $this->db = (new Conexion())->conectar();
