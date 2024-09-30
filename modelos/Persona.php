@@ -8,6 +8,8 @@ require_once 'Conexion.php';
 
 class Persona {
     private $db;
+    private int $abc;
+    private string $textitoprueba;
 
     public function __construct() {
         $this->db = (new Conexion())->conectar();
